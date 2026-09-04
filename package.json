@@ -1,0 +1,30 @@
+{
+  "name": "valorant-rank-tracker",
+  "version": "1.0.0",
+  "description": "Check Valorant player ranks with username and tag",
+  "main": "valorant-server.js",
+  "scripts": {
+    "start": "node valorant-server.js",
+    "dev": "nodemon valorant-server.js"
+  },
+  "keywords": [
+    "valorant",
+    "rank",
+    "tracker",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
